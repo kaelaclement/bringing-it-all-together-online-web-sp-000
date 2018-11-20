@@ -81,7 +81,7 @@ class Dog
       dog_row = dog[0]
       dog = self.new(name: name, breed: breed)
     end
-    
+    dog
   end
 
 end
