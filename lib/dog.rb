@@ -7,4 +7,8 @@ class Dog
     @breed = breed
     @id = id
   end
+
+  def self.create_table
+    sql = "CREATE TABLE IF NOT EXISTS dogs;"
+  end
 end
